@@ -1,0 +1,19 @@
+<root>
+    <!--属性定义-->
+    <Properties>
+        <!--角色名字-->
+        <name>
+            <!--unicode作为名字类型-->
+            <Type>UNICODE</Type>
+            <Flags>BASE</Flags>
+        </name>
+    </Properties>
+    <!--base上的方法声明-->
+    <BaseMethods>
+        <!--say hello指令-->
+        <hello>
+            <!--say hello的内容-->
+            <Arg>UNICODE</Arg>
+        </hello>
+    </BaseMethods>
+</root>
